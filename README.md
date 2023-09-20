@@ -25,7 +25,7 @@ If `output_path` is specified, the output files will be arranged in the same fol
 `-d` option will delete the input file after conversion.  
 `-d` 选项会在转换完成后删除输入文件。
 
-## Supported ID3 tags / 支持的ID3标签
+# Supported ID3 tags / 支持的ID3标签
 
 - title / 歌曲名
 - artist / 艺术家
@@ -36,7 +36,7 @@ If `output_path` is specified, the output files will be arranged in the same fol
 - albumartist / 专辑艺术家
 - date / 日期
 
-## Development / 开发
+# Development / 开发
 
 Make sure you have installed [poetry](https://python-poetry.org/).  
 确保你已经安装了 [poetry](https://python-poetry.org/) 。
@@ -48,3 +48,10 @@ python main.py [-h] [-d] input_path [output_path]
 # Build
 poetry run pyinstaller main.py -F -n TagsMusicConverter
 ```
+
+# Similar repositories / 类似项目
+- [operatorpk/kConvert](https://github.com/operatorpk/kConvert)
+
+# License / 许可证
+`TagsMusicConverter` is a open-source software licensed under the MIT License.  
+`TagsMusicConverter` 是一个使用 MIT 许可证的开源软件。
